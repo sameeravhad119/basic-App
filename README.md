@@ -1,3 +1,5 @@
+Please edit .env.development for configuration.
+
 1) Code compile -> all process.env variables replace by their values.
 2) Code bundling -> all import and require files will be bundle and will get refrence
 3) Code Runtime -> 
