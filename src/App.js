@@ -7,6 +7,7 @@ export default class App extends Component {//prototype pattern
         let parentElement = document.getElementsByTagName("html");
         parentElement[0].style.setProperty('--primaryColor', process.env.REACT_APP_PRIMARY_COLOR);
         parentElement[0].style.setProperty('--secondaryColor', process.env.REACT_APP_SECONDARY_COLOR);
+
     }
 
 

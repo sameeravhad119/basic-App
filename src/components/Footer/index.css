@@ -2,6 +2,7 @@
     width: 100%;
     background-color: var(--primaryColor);
     color:var(--secondaryColor);
+    font-size: calc(var(--fontSize)*1px);
 
     position: absolute;
     bottom: 0px;

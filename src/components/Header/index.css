@@ -12,4 +12,6 @@
 }
 .header_name{
     margin-left:14px;
+    font-size: calc(var(--fontSize)*1px);
+    font-weight: bolder;
 }
