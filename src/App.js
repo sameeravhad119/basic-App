@@ -13,10 +13,12 @@ export default class App extends Component {//prototype pattern
     render() {
         let brandName = process.env.REACT_APP_BRAND_NAME;
         let logo = process.env.REACT_APP_LOGO;
-        console.log('process.env', process.env);
+
         return (
             <>
-                <Header brandName={brandName} logo={logo} />
+                <Header brandName={brandName}
+                // logo={logo} 
+                />
                 <Body content={'abc'} />
                 <Footer />
             </>
